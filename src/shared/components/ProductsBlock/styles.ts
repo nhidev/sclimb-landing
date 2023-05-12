@@ -15,7 +15,7 @@ export const ProductsBlockSection = styled.section`
 export const Content = styled.div`
   display: flex;
   align-items: center ;
-  margin-bottom: 3rem;
+ 
 
 `;
 
@@ -26,6 +26,21 @@ export const Title = styled.h2`
   text-transform: uppercase;
   font-family: "Motiva Sans Light", sans-serif;
   margin-right: 2rem;
+`;
+
+export const Para = styled.p`
+  color: #000;
+  font-size: 16px;
+  padding: 1rem 0 0.5rem;
+  font-family: "Motiva Sans Light", sans-serif;
+  text-align:  left;
+  line-height: 1.5;
+  margin-bottom: 3rem;
+  max-width: 70%;
+  white-space:  pre-line;
+  @media only screen and (max-width: 1024px) {
+    max-width: 100%;
+  }
 `;
 
 export const MinTitle = styled.h6`

@@ -29,7 +29,7 @@ export const IntroBlock = ({ title, button, id, t }: IntroBlockProps) => {
             <Content>
               <h6>{t(title)}</h6>
               {button && (
-                <Button name="submit" onClick={() => scrollTo("products")}>
+                <Button name="submit" btnSize="lg" onClick={() => scrollTo("products")}>
                   {t(button)}
                 </Button>
               )}

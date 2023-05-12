@@ -5,9 +5,9 @@ export const StyledButton = styled.button<any>`
   color: ${(p) => (p.color ? "#2E186A" : "#fff")};
   font-size: 1rem;
   width: fit-content;
-  border: 1px solid ${(p) => p.type === 'outline' ? p.color : p.color || "#2e186a" };;
+  border: 1px solid ${(p) => p.type === "outline" ? p.color : p.color || "#2e186a" };;
   border-radius: 0;
-  padding: 6px 16px;
+  padding: ${p=> p.btnSize ==="lg"? "16px" : "6px: 16px"} ;
   cursor: pointer;
   transition: all 0.3s ease-in-out;
   box-shadow: 0 16px 30px rgb(23 31 114 / 20%);
@@ -19,4 +19,8 @@ export const StyledButton = styled.button<any>`
     border: 1px solid rgb(255, 130, 92);
     background-color: rgb(255, 130, 92);
   }
+  @media only screen and (max-width: 768px) {
+    font-size: .8rem;
+  }
+
 `;

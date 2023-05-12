@@ -5,10 +5,11 @@ export const Button = ({
   color,
   fixedWidth,
   type,
+  btnSize,
   children,
   onClick,
 }: IButtonProps) => (
-  <StyledButton type={type} color={color} fixedWidth={fixedWidth} onClick={onClick}>
+  <StyledButton btnSize={btnSize} type={type} color={color} fixedWidth={fixedWidth} onClick={onClick}>
     {children}
   </StyledButton>
 );

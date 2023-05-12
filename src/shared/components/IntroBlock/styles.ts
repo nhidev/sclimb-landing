@@ -16,7 +16,7 @@ export const IntroBlockSection = styled.section`
 export const ContentWrapper = styled.div<any>`
   position: absolute;
   width: 100%;
-  max-width: 1200px;
+  max-width: 1300px;
   padding: 0 60px;
   position: absolute;
   bottom: 25%;
@@ -27,6 +27,7 @@ export const ContentWrapper = styled.div<any>`
   @media only screen and (max-width: 1024px) {
     max-width: calc(100% - 68px);
     padding: 0 30px;
+    margin-bottom: 3rem;
   }
 
   @media only screen and (max-width: 768px) {

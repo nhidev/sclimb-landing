@@ -8,6 +8,7 @@ export interface IButtonProps {
   fixedWidth?: boolean;
   name?: string;
   type?:string;
+  btnSize?:string,
   children: React.ReactNode;
   onClick?: () => void;
 };

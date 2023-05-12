@@ -47,7 +47,7 @@ const Footer = ({ t }: any) => {
 
   return (
     <>
-      <FooterSection>
+      <FooterSection id="contact">
         <Container>
           <Row justify="space-between">
 
@@ -87,8 +87,8 @@ const Footer = ({ t }: any) => {
                   <SvgIcon
                     src="vietnam.svg"
                     aria-label="homepage"
-                    width="30px"
-                    height="30px"
+                    width="32px"
+                    height="32px"
                   />
                 </LanguageSwitch>
                 <LanguageSwitch onClick={() => handleChange("en")}>
