@@ -12,14 +12,20 @@ export const ProductsBlockSection = styled.section`
   }
 `;
 
+export const Content = styled.div`
+  display: flex;
+  align-items: center ;
+  margin-bottom: 3rem;
+
+`;
+
 export const Title = styled.h2`
   color: #000;
   font-size: 32px;
-  padding: 0.5rem 0;
-  margin-bottom: 3rem;
+  padding: 1rem 0 0.5rem 0;
   text-transform: uppercase;
   font-family: "Motiva Sans Light", sans-serif;
-  text-align: left;
+  margin-right: 2rem;
 `;
 
 export const MinTitle = styled.h6`

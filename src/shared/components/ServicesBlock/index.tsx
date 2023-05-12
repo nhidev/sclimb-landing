@@ -29,11 +29,11 @@ const ServicesBlock = ({
         <Row justify="space-between" align="middle" id={id}>
           <Col lg={24} md={24} sm={24} xs={24}>
             <Title>{t(title)}</Title>
-            <Row justify="space-between">
+            <Row gutter={[24, 24]} justify="space-between">
               {typeof section === "object" &&
                 section.map((item: any, id: number) => {
                   return (
-                    <Col key={id} lg={8} md={8} sm={12} xs={24}>
+                    <Col key={id} xs={20} sm={12} md={8} lg={8}>
                       <Zoom delay={item.delay}>
                         <Image src={item.icon} height={250} />
                         <MinTitle>{t(item.title)}</MinTitle>

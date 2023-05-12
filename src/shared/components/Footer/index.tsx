@@ -65,17 +65,16 @@ const Footer = ({ t }: any) => {
             <Col lg={6} md={8} sm={12} xs={12}>
               <Title>{t("Main Menu")}</Title>
               <Large left="true" to="/">
-                {t("About")}
+                {t("about")}
               </Large>
               <Large left="true" to="/">
-                {t("Holds")}
-              </Large>
-
-              <Large left="true" to="/">
-                {t("Volumes")}
+                {t("products")}
               </Large>
               <Large left="true" to="/">
-                {t("Services")}
+                {t("climbingGym")}
+              </Large>
+              <Large left="true" to="/">
+                {t("services")}
               </Large>
               {/* <Large left="true" to="/">
                 {t("Climbing Gyms")}

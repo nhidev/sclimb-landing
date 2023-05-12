@@ -37,33 +37,18 @@ const Header = ({ t }: any) => {
     };
     return (
       <>
-        {/* <CustomNavLinkSmall onClick={() => scrollTo("about")}>
-          <Span>{t("About SClimb")}</Span>
-        </CustomNavLinkSmall> */}
         <CustomNavLinkSmall onClick={() => scrollTo("holds")}>
-          <Span>{t("Holds")}</Span>
-        </CustomNavLinkSmall>
-        <CustomNavLinkSmall onClick={() => scrollTo("volumes")}>
-          <Span>{t("Volumes")}</Span>
+          <Span>{t("products")}</Span>
         </CustomNavLinkSmall>
         <CustomNavLinkSmall onClick={() => scrollTo("services")}>
-          <Span>{t("Services")}</Span>
+          <Span>{t("services")}</Span>
         </CustomNavLinkSmall>
-        <CustomNavLinkSmall onClick={() => scrollTo("guyms")}>
-          <Span>{t("Climbing Gym")}</Span>
+        <CustomNavLinkSmall onClick={() => scrollTo("gym")}>
+          <Span>{t("climbingGym")}</Span>
         </CustomNavLinkSmall>
         <CustomNavLinkSmall onClick={() => scrollTo("contact")}>
-          <Span>{t("Contact")}</Span>
+          <Span>{t("contact")}</Span>
         </CustomNavLinkSmall>
-
-        {/* <CustomNavLinkSmall
-          style={{ width: "180px" }}
-          onClick={() => scrollTo("contact")}
-        >
-          <Span>
-            <Button>{t("Contact")}</Button>
-          </Span>
-        </CustomNavLinkSmall> */}
       </>
     );
   };
