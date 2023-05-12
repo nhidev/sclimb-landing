@@ -1,0 +1,24 @@
+{
+  "title": "SERVICES",
+  "text": "WHEN YOU THINK ABOUT CLIMBING WALLS, THINK ABOUT US!, WE PROVIDE A FULL RANGE OF CLIMBING SOLUTIONS, PRODUCTS, AND SERVICES.",
+  "section": [
+    {
+      "title": "CUSTOM WALL & BOULDERS ",
+      "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente libero ad minima mollitia illo commodi.",
+      "icon": "/img/custom-wall-boulder.jpg",
+      "delay": 500
+    },
+    {
+      "title": "HEADRUSH TRUBLUE SERVICE CENTRES",
+      "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente libero ad minima mollitia illo commodi.",
+      "icon": "/img/headrush-trouble-service.jpg",
+      "delay": 0
+    },
+    {
+      "title": "ROUTE SETTING",
+      "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente libero ad minima mollitia illo commodi.",
+      "icon": "/img/route-setting.jpg",
+      "delay": 500
+    }
+  ]
+}

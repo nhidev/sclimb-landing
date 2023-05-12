@@ -1,0 +1,31 @@
+{
+  "title": "ROCK CLIMBING HOLDS FOR SALE",
+  "text": "Our holds are made by climbers, for climbers. We shape holds that we want to climb on and holds that our kids love climbing on. Ergonomic, comfortable, and safe climbing holds for kids and adults.",
+  "button": "View all",
+  "section": [
+    {
+      "title": "Tectonic Plates - Full Set",
+      "price": "64$",
+      "icon": "/img/product_1.jpg",
+      "delay": 500
+    },
+    {
+      "title": "Glaciers - Full Set",
+      "price": "124$",
+      "icon": "/img/product_2.jpg",
+      "delay": 0
+    },
+    {
+      "title": "Meridians - Full Set - GR072",
+      "price": "85$",
+      "icon": "/img/product_3.jpg",
+      "delay": 0
+    },
+    {
+      "title": "Flakes - Full Set",
+      "price": "100$",
+      "icon": "/img/product_4.jpg",
+      "delay": 500
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "title": "SOLUTIONS FOR",
+  "text": "WHEN YOU THINK ABOUT CLIMBING WALLS, THINK ABOUT US!, WE PROVIDE A FULL RANGE OF CLIMBING SOLUTIONS, PRODUCTS, AND SERVICES.",
+  "section": [
+    {
+      "title": "CLIMBING GYMS",
+      "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente libero ad minima mollitia illo commodi.",
+      "icon": "climbing_gyms.svg",
+      "delay": 500
+    },
+    {
+      "title": "SCHOOLS & UNIVERSITIES",
+      "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente libero ad minima mollitia illo commodi.",
+      "icon": "schools_universities.svg",
+      "delay": 0
+    },
+    {
+      "title": "ENTERTAINMENT CENTRES",
+      "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente libero ad minima mollitia illo commodi.",
+      "icon": "entertainment_central.svg",
+      "delay": 0
+    },
+    {
+      "title": "COMPETITION ORGANISERS ",
+      "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente libero ad minima mollitia illo commodi.",
+      "icon": "competition_organisers.svg",
+      "delay": 500
+    }
+  ]
+}
