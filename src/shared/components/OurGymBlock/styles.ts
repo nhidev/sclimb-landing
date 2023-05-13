@@ -3,12 +3,19 @@ import styled from "styled-components";
 export const OurGymContentSection = styled("section")`
   height: 480px;
   position: relative;
-  background-image: url('/img/our-gym-bg-1.png');
+  background: #fff url('/img/our-gym-bg-1.png');
   background-size: contain;
-  background-position: left;
+  background-position: left top;
   background-repeat: no-repeat;
   @media only screen and (max-width: 1024px) {
-    padding: 4rem 0 4rem;
+    height: auto;
+    .ant-image {
+      display: flex;
+      margin-right: -18px ;
+    }
+    img {
+      height: 200px;
+    }
   }
 `;
 export const Title = styled.h2`
@@ -29,12 +36,15 @@ export const MinTitle = styled.h6`
 export const ContentWrapper = styled.div`
   height: 480px;
   position: relative;
-  background: #fff url('/img/our-gym-bg-3.png') center bottom 100% no-repeat ;
+  background: #fff url('/img/our-gym-bg-3.png') left bottom no-repeat ;
+  background-size: 100%;
+    background-position: bottom;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   @media only screen and (max-width: 1024px) {
-    padding: 4rem 0 4rem;
+    height: auto;
+    padding:2rem 0 ;
   }
 `

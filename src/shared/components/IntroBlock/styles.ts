@@ -33,6 +33,7 @@ export const ContentWrapper = styled.div<any>`
   @media only screen and (max-width: 768px) {
     max-width: calc(100% - 38px);
     padding: 0 18px;
+    margin-bottom: 0;
   }
 
   @media only screen and (max-width: 414px) {

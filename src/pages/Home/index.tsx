@@ -20,7 +20,6 @@ const Home = () => {
         button={IntroContent.button}
         id="intro"
       />
-
       <ProductsBlock
         title={ProductsContent.title}
         text={ProductsContent.text}
@@ -28,15 +27,16 @@ const Home = () => {
         button={ProductsContent.button}
         id="products"
       />
-      <OurGymBlock
-        title={OurGymContent.title}
-        text={OurGymContent.text}
-        id="gym"
-      />
+
       <ServicesBlock
         title={ServicesContent.title}
         section={ServicesContent.section}
         id="services"
+      />
+      <OurGymBlock
+        title={OurGymContent.title}
+        text={OurGymContent.text}
+        id="gym"
       />
       <SolutionBlock
         type="up"

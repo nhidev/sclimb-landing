@@ -4,7 +4,6 @@ import { MenuOutlined } from "@ant-design/icons";
 
 export const HeaderSection = styled.header`
   padding: 1rem 0.5rem;
-
   .ant-row-space-between {
     align-items: center;
     text-align: center;
@@ -13,6 +12,13 @@ export const HeaderSection = styled.header`
 
 export const LogoContainer = styled(Link)`
   display: flex;
+  @media only screen and (max-width: 411px) {
+    img {
+      width: 50px;
+      height: 50px;
+    }
+   
+  }
 `;
 
 export const NavLink = styled.div`

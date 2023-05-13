@@ -35,7 +35,7 @@ export const ProductsBlock = ({ title, text, section, button, delay, id, t }: Pr
               )}
             </Content>
             <Para>{t(text)}</Para>
-            <Row gutter={[24, 24]} justify="space-between">
+            <Row gutter={[24, 24]} justify="center">
               {typeof section === "object" &&
                 section.map((item: any, id: number) => {
                   return (

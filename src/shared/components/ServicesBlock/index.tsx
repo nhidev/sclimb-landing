@@ -29,7 +29,7 @@ const ServicesBlock = ({
         <Row justify="space-between" align="middle" id={id}>
           <Col lg={24} md={24} sm={24} xs={24}>
             <Title>{t(title)}</Title>
-            <Row gutter={[24, 24]} justify="space-between">
+            <Row gutter={[24, 24]} justify="center">
               {typeof section === "object" &&
                 section.map((item: any, id: number) => {
                   return (
