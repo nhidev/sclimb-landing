@@ -23,7 +23,6 @@ export const ContentWrapper = styled.div<any>`
   left: 0;
   right: 0;
   margin: auto;
-
   @media only screen and (max-width: 1024px) {
     max-width: calc(100% - 68px);
     padding: 0 30px;
@@ -42,17 +41,22 @@ export const ContentWrapper = styled.div<any>`
   }
 `;
 export const Content = styled.div`
-  padding: 0.75rem 0 0.75rem;
   display: flex;
   flex-direction: column;
+  align-items: flex-start;
+  justify-content:  flex-end;
   h6 {
     color: #ffffff;
     white-space: pre-line;
     text-align: left ;
 
   @media only screen and (max-width: 768px) {
-   font-size: 16px;
-  }
+
+    padding: 0 ;
+    font-size: 16px;
+    line-height: 1.5;
+
+    }
   }
 `;
  

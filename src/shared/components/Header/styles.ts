@@ -17,7 +17,6 @@ export const LogoContainer = styled(Link)`
       width: 50px;
       height: 50px;
     }
-   
   }
 `;
 
@@ -29,7 +28,6 @@ export const NavLink = styled.div`
 export const CustomNavLink = styled.div`
   width: 203px;
   display: inline-block;
-
   @media only screen and (max-width: 411px) {
     width: 150px;
   }
@@ -52,9 +50,7 @@ export const Burger = styled.div`
   @media only screen and (max-width: 890px) {
     display: block;
   }
-
   display: none;
-
   svg {
     fill: #2e186a;
   }
@@ -77,7 +73,6 @@ export const CustomNavLinkSmall = styled(NavLink)`
   color: #18216d;
   transition: color 0.2s ease-in;
   margin: 0.5rem 2rem;
-
   @media only screen and (max-width: 768px) {
     margin: 1.25rem 2rem;
   }
@@ -99,7 +94,6 @@ export const Outline = styled(MenuOutlined)<any>`
 export const Span = styled.span`
   cursor: pointer;
   transition: all 0.3s ease-in-out;
-
   &:hover,
   &:active,
   &:focus {
