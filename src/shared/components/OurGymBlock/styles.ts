@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const OurGymContentSection = styled("section")`
   height: 480px;
   position: relative;
-  background: #fff url('/img/our-gym-bg-1.png');
+  background: #fff url('/img/our-gym-bg-1.jpg');
   background-size: contain;
   background-position: left top;
   background-repeat: no-repeat;

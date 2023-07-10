@@ -6,6 +6,7 @@ export const IntroBlockSection = styled.section`
   display: flex;
   justify-content: center;
   overflow: hidden;
+  max-height: 70vh;
   img {
     width:100% ;
     object-fit: cover ;
