@@ -21,7 +21,7 @@ export const IntroBlock = ({ title, button, id, t }: IntroBlockProps) => {
     <IntroBlockSection id={id}>
       <Row justify="center">
         <Image
-          src={'/img/hero.png'}
+          src={'/img/hero.jpg'}
           preview={false}
         />
         <ContentWrapper>

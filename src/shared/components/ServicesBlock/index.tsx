@@ -35,7 +35,7 @@ const ServicesBlock = ({
                   return (
                     <Col key={id} xs={20} sm={12} md={8} lg={8}>
                       <Zoom delay={item.delay}>
-                        <Image src={item.icon} height={250} />
+                        <Image src={item.icon} height={250} preview={false} />
                         <MinTitle>{t(item.title)}</MinTitle>
                       </Zoom>
                     </Col>

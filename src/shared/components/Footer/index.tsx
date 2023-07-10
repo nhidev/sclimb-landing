@@ -57,9 +57,9 @@ const Footer = ({ t }: any) => {
               <Chat>
                 {t(`Always learning and innovating, no project is too big or small, just ask us`)}
               </Chat>
-              <Para>347 Huynh Van Banh Street, Ward 11, Phu Nhuan District</Para>
+              <Para>T18-23, Manhattan, Vinhomes Grand Park, Long Binh, District 9</Para>
               <Para>Ho Chi Minh City, Viet Nam</Para>
-              <Para>info@sclimb.vn</Para>
+              <Para>vuclimb1991@gmail.com</Para>
               <Para>+84 974 833 783</Para>
             </Col>
             <Col lg={6} md={8} sm={12} xs={12}>
@@ -126,7 +126,7 @@ const Footer = ({ t }: any) => {
                 src="facebook.svg"
               />
               <SocialLink
-                href="https://www.instagram.com/vunguyenstrong"
+                href="https://www.instagram.com/gosclimb"
                 src="instagram.svg"
               />
             </FooterContainer>
