@@ -94,11 +94,21 @@ export const Outline = styled(MenuOutlined)<any>`
 export const Span = styled.span`
   cursor: pointer;
   transition: all 0.3s ease-in-out;
-  &:hover,
-  &:active,
-  &:focus {
-    color: rgb(255, 130, 92);
-    text-underline-position: under;
-    text-decoration: rgb(255, 130, 92) wavy underline;
+  position: relative;
+  &:after {
+    background-color:rgb(255, 130, 92);
+    bottom: -5px;
+    content: "";
+    height: 2px;
+    left: 50%;
+    position: absolute;
+    transform: translateX(-50%);
+    transition: all .3s cubic-bezier(.68,-.55,.265,1.55);
+    width: 0;
+  }
+  &:hover:after,
+  &:active:after,
+  &:focus:after {
+    width: 100%;
   }
 `;

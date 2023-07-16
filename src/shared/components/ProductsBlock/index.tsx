@@ -28,11 +28,11 @@ export const ProductsBlock = ({ title, text, section, button, delay, id, t }: Pr
           <Col lg={24} md={24} sm={24} xs={24}>
             <Content>
               <Title>{t(title)}</Title>
-              {button && (
+              {/* {button && (
                 <Button name="submit" type="outline" color="#000" onClick={() => scrollTo("products")}>
                   {t(button)}
                 </Button>
-              )}
+              )} */}
             </Content>
             <Para>{t(text)}</Para>
             <Row gutter={[24, 24]} justify="center">
