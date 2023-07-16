@@ -1,21 +1,21 @@
 {
-  "title": "SERVICES",
+  "title": "services",
   "text": "WHEN YOU THINK ABOUT CLIMBING WALLS, THINK ABOUT US!, WE PROVIDE A FULL RANGE OF CLIMBING SOLUTIONS, PRODUCTS, AND SERVICES.",
   "section": [
     {
-      "title": "CLIMBING GYM",
+      "title": "serviceSectionTitle1",
       "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente libero ad minima mollitia illo commodi.",
       "icon": "/img/climbing-gym.jpg",
       "delay": 500
     },
     {
-      "title": "CLASSES AND PRIVATE COACHING",
+      "title": "serviceSectionTitle2",
       "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente libero ad minima mollitia illo commodi.",
       "icon": "/img/classes.jpg",
       "delay": 0
     },
     {
-      "title": "PARTIES & GROUP",
+      "title": "serviceSectionTitle3",
       "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente libero ad minima mollitia illo commodi.",
       "icon": "/img/parties-group.jpg",
       "delay": 500

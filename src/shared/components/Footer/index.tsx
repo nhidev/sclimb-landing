@@ -53,7 +53,7 @@ const Footer = ({ t }: any) => {
 
 
             <Col lg={14} md={10} sm={12} xs={12}>
-              <Language>{t("Contact")}</Language>
+              <Language>{t("contact")}</Language>
               <Chat>
                 {t(`Always learning and innovating, no project is too big or small, just ask us`)}
               </Chat>
@@ -63,7 +63,7 @@ const Footer = ({ t }: any) => {
               <Para>+84 974 833 783</Para>
             </Col>
             <Col lg={6} md={8} sm={12} xs={12}>
-              <Title>{t("Main Menu")}</Title>
+              <Title>{t("mainMenu")}</Title>
               <Large left="true" to="/">
                 {t("about")}
               </Large>

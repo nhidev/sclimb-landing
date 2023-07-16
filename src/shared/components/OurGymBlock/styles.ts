@@ -30,7 +30,8 @@ export const MinTitle = styled.h6`
   font-size: 16px;
   padding: 1rem 0 0.5rem;
   font-family: "Motiva Sans Light", sans-serif;
-  text-align:  center;
+  text-align:  left;
+  white-space: pre-line;
 `;
 
 export const ContentWrapper = styled.div`

@@ -59,11 +59,25 @@ export const Large = styled(Link)<any>`
   margin-bottom: 0.625rem;
   transition: all 0.3s ease-in-out;
   max-width: max-content;
-
+  position: relative;
+  &:after {
+    background-color:rgb(255, 130, 92);
+    bottom: -5px;
+    content: "";
+    height: 2px;
+    left: 50%;
+    position: absolute;
+    transform: translateX(-50%);
+    transition: all .3s cubic-bezier(.68,-.55,.265,1.55);
+    width: 0;
+  }
   &:hover {
-    color: rgb(255, 130, 92);
-    text-underline-position: under;
-    text-decoration: rgb(255, 130, 92) wavy underline;
+    color: #ffffff;
+  }
+  &:hover:after,
+  &:active:after,
+  &:focus:after {
+    width: 100%;
   }
 `;
 
@@ -103,10 +117,6 @@ export const FooterContainer = styled.div`
 
   @media screen and (max-width: 769px) {
     width: auto;
-
-    a:not(:last-child) {
-      display: none;
-    }
   }
 
   div {
