@@ -34,10 +34,13 @@ const ServicesBlock = ({
                 section.map((item: any, id: number) => {
                   return (
                     <Col key={id} xs={20} sm={12} md={8} lg={8}>
-                      <Zoom delay={item.delay}>
+                      <Zoom cascade={true} triggerOnce={true}  delay={item.delay}>
                         <Image src={item.icon} height={250} preview={false} />
-                        <MinTitle>{t(item.title)}</MinTitle>
                       </Zoom>
+                      <Zoom cascade={true} triggerOnce={true}  delay={item.delay}>
+                      <MinTitle>{t(item.title)}</MinTitle>
+                      </Zoom>
+                    
                     </Col>
                   );
                 })}

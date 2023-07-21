@@ -1,9 +1,8 @@
 import { Row, Col, Image } from "antd";
 import { withTranslation } from "react-i18next";
-import { Button } from "../../common/Button";
 import Container from "../../common/Container";
-import { ProductsBlockSection, Content, Title, MinTitle, Para, MinPara } from "./styles";
-import { Zoom } from "react-awesome-reveal";
+import { ProductsBlockSection, Content, Title, Para } from "./styles";
+import { Zoom, Slide, Fade } from "react-awesome-reveal";
 interface ProductsBlockProps {
   title: string;
   text: string;
@@ -14,42 +13,35 @@ interface ProductsBlockProps {
   t: any;
 };
 
-export const ProductsBlock = ({ title, text, section, button, delay, id, t }: ProductsBlockProps) => {
-  const scrollTo = (id: string) => {
-    const element = document.getElementById(id) as HTMLDivElement;
-    element.scrollIntoView({
-      behavior: "smooth",
-    });
-  };
+export const ProductsBlock = ({  id, t }: ProductsBlockProps) => {
   return (
     <ProductsBlockSection id={id}>
       <Container>
         <Row justify="center" align="middle" id={id}>
           <Col lg={24} md={24} sm={24} xs={24}>
             <Content>
-              <Title>{t(title)}</Title>
-              {/* {button && (
-                <Button name="submit" type="outline" color="#000" onClick={() => scrollTo("products")}>
-                  {t(button)}
-                </Button>
-              )} */}
-            </Content>
-            <Para>{t(text)}</Para>
+              <Title>{t('productsTitle')}</Title>
+             </Content>
             <Row gutter={[24, 24]} justify="center">
-              {typeof section === "object" &&
-                section.map((item: any, id: number) => {
-                  return (
-                    <Col key={id} xs={20} sm={12} md={8} lg={6}>
-                      <Zoom delay={delay}>
-                        <Image src={item.icon} height={250} />
-                        <MinTitle>{t(item.title)}</MinTitle>
-                        <MinPara>{t(item.price)}</MinPara>
-                      </Zoom>
-                    </Col>
-                  );
-                })}
+              <Col className="text-center"xs={20} sm={20} md={12} lg={12}>
+                <Para>{t("holdsText")}</Para>
+              </Col>
+              <Col xs={20} sm={20} md={12} lg={12}>
+              <Zoom direction='up' cascade={true} triggerOnce={true} delay={500}>
+                    <Image src="/img/product_1.jpg" height={350}  preview={false} />
+                  </Zoom>
+              </Col>                
             </Row>
-
+            <Row gutter={[24, 24]} justify="center">
+              <Col xs={20} sm={20} md={12} lg={12}>
+              <Zoom direction='up' cascade={true} triggerOnce={true} delay={500}>
+                  <Image src="/img/product_2.jpg" height={350}  preview={false} />
+                  </Zoom>
+              </Col>   
+              <Col className="text-center"  xs={20} sm={20} md={12} lg={12}>
+              <Para>{t("volumesText")}</Para>
+              </Col>             
+            </Row>
           </Col>
         </Row >
       </Container >

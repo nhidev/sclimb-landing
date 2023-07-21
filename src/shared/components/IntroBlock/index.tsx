@@ -10,7 +10,7 @@ interface IntroBlockProps {
   t: any;
 };
 
-export const IntroBlock = ({ title, button, id, t }: IntroBlockProps) => {
+export const IntroBlock = ({ button, id, t }: IntroBlockProps) => {
   const scrollTo = (id: string) => {
     const element = document.getElementById(id) as HTMLDivElement;
     element.scrollIntoView({
@@ -27,9 +27,10 @@ export const IntroBlock = ({ title, button, id, t }: IntroBlockProps) => {
         <ContentWrapper>
           <Col lg={24} md={24} sm={24} xs={24}>
             <Content>
-              <h6>{t(title)}</h6>
+              <h6>{t('heroText')}</h6>
               {button && (
                 <Button name="submit" btnSize="lg" onClick={() => scrollTo("products")}>
+                  <span>↓</span>
                   {t(button)}
                 </Button>
               )}

@@ -8,6 +8,7 @@ import OurGymContent from "../../content/OurGymContent.json";
 const IntroBlock = lazy(() => import("../../shared/components/IntroBlock"));
 const ProductsBlock = lazy(() => import("../../shared/components/ProductsBlock"));
 const ServicesBlock = lazy(() => import("../../shared/components/ServicesBlock"));
+const PricesBlock = lazy(() => import("../../shared/components/PricesBlock"));
 const SolutionBlock = lazy(() => import("../../shared/components/SolutionBlock"));
 const OurGymBlock = lazy(() => import("../../shared/components/OurGymBlock"));
 const ScrollToTop = lazy(() => import("../../shared/common/ScrollToTop"));
@@ -33,13 +34,17 @@ const Home = () => {
         section={ServicesContent.section}
         id="services"
       />
+        <PricesBlock
+        title={ServicesContent.title}
+        section={ServicesContent.section}
+        id="prices"
+      />
       <OurGymBlock
         title={OurGymContent.title}
         text={OurGymContent.text}
         id="gym"
       />
       <SolutionBlock
-        type="up"
         title={SolutionContent.title}
         text={SolutionContent.text}
         section={SolutionContent.section}

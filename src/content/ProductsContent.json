@@ -1,6 +1,6 @@
 {
   "title": "TOP PICKS",
-  "text": "Our holds are made by climbers, for climbers. We shape holds that we want to climb on and holds that our kids love climbing on. Ergonomic, comfortable, and safe climbing holds for kids and adults.",
+  "text": "Behind Sclimb are all active climbers with great passion for climbing and bouldering. ",
   "button": "View all",
   "section": [
     {
@@ -14,18 +14,6 @@
       "price": "124$",
       "icon": "/img/product_2.jpg",
       "delay": 0
-    },
-    {
-      "title": "Meridians - Full Set - GR072",
-      "price": "85$",
-      "icon": "/img/product_3.jpg",
-      "delay": 0
-    },
-    {
-      "title": "Flakes - Full Set",
-      "price": "100$",
-      "icon": "/img/product_4.jpg",
-      "delay": 500
     }
   ]
 }
