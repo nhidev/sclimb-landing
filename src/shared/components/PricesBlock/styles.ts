@@ -70,6 +70,9 @@ export const Para = styled.div`
   width: 90%;
   display: flex;
   justify-content: space-between;
+  @media only screen and (max-width: 1024px) {
+    width: 100%;
+  }
 `;
 
 export const MinPara = styled.p`

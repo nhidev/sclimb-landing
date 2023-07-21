@@ -52,7 +52,7 @@ export const Content = styled.div`
     text-align: left ;
   @media only screen and (max-width: 768px) {
     padding: 0 ;
-    font-size: 16px;
+    font-size: 18px;
     line-height: 1.5;
 
     }
@@ -75,6 +75,15 @@ export const Content = styled.div`
     }
     &:hover {
       color: #000;
+      background-color: rgb(243 144 29 / 82%);
+      border-color: #f3901d;
+    }
+    @media only screen and (max-width: 768px) {
+      width: 50px;
+      height: 50px;
+      span {
+      font-size: 14px;
+    }
     }
   } 
 `;
