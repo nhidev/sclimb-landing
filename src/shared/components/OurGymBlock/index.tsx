@@ -7,6 +7,7 @@ import {
   Title,
   MinTitle,
 } from "./styles";
+import { Fade } from "react-awesome-reveal";
 
 interface ServicesBlockProps {
   title: string;
@@ -33,8 +34,10 @@ const OurGymBlock = ({
               </Col>
               <Col xs={24} sm={24} md={12} lg={12}>
                 <ContentWrapper>
-                  <Title>{t(title)}</Title>
-                  <MinTitle>{t(text)}</MinTitle>
+                  <Fade direction='up' triggerOnce={true} delay={300}>
+                    <Title>{t(title)}</Title>
+                    <MinTitle>{t(text)}</MinTitle>
+                  </Fade>
                 </ContentWrapper>
 
               </Col>

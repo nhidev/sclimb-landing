@@ -2,7 +2,7 @@ import { Row, Col, Image } from "antd";
 import { withTranslation } from "react-i18next";
 import Container from "../../common/Container";
 import { ProductsBlockSection, Content, Title, Para } from "./styles";
-import { Zoom, Slide, Fade } from "react-awesome-reveal";
+import { Zoom, Fade } from "react-awesome-reveal";
 interface ProductsBlockProps {
   title: string;
   text: string;
@@ -13,7 +13,7 @@ interface ProductsBlockProps {
   t: any;
 };
 
-export const ProductsBlock = ({  id, t }: ProductsBlockProps) => {
+export const ProductsBlock = ({ id, t }: ProductsBlockProps) => {
   return (
     <ProductsBlockSection id={id}>
       <Container>
@@ -21,26 +21,26 @@ export const ProductsBlock = ({  id, t }: ProductsBlockProps) => {
           <Col lg={24} md={24} sm={24} xs={24}>
             <Content>
               <Title>{t('productsTitle')}</Title>
-             </Content>
+            </Content>
             <Row gutter={[24, 24]} justify="center">
-              <Col className="text-center"xs={20} sm={20} md={12} lg={12}>
-                <Para>{t("holdsText")}</Para>
+              <Col className="text-center" xs={20} sm={20} md={12} lg={12}>
+                <Fade direction='up' triggerOnce={true}>{t("holdsText")}</Fade>
               </Col>
               <Col xs={20} sm={20} md={12} lg={12}>
-              <Zoom direction='up' cascade={true} triggerOnce={true} delay={500}>
-                    <Image src="/img/product_1.jpg" height={350}  preview={false} />
-                  </Zoom>
-              </Col>                
+              <Fade direction='up' triggerOnce={true}>
+                  <Image src="/img/product_1.jpg" height={350} preview={false} />
+                </Fade>
+              </Col>
             </Row>
             <Row gutter={[24, 24]} justify="center">
-              <Col xs={20} sm={20} md={12} lg={12}>
-              <Zoom direction='up' cascade={true} triggerOnce={true} delay={500}>
-                  <Image src="/img/product_2.jpg" height={350}  preview={false} />
-                  </Zoom>
-              </Col>   
-              <Col className="text-center"  xs={20} sm={20} md={12} lg={12}>
-              <Para>{t("volumesText")}</Para>
-              </Col>             
+              <Col className="col-img" xs={20} sm={20} md={12} lg={12}>
+              <Fade direction='up' triggerOnce={true}>
+                  <Image src="/img/product_2.jpg" height={350} preview={false} />
+                </Fade>
+              </Col>
+              <Col className="col-text text-center" xs={20} sm={20} md={12} lg={12}>
+              <Fade direction='up' triggerOnce={true}>{t("volumesText")}</Fade>
+              </Col>
             </Row>
           </Col>
         </Row >

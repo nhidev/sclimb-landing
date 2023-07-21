@@ -5,28 +5,34 @@ export const PricesContentSection = styled("section")`
   padding: 0 0 8rem;
   background-color: #323435;
   .text-box {
-    display: flex;
-    flex-direction: column;
+    overflow: hidden;
+    &:after {
+    content: "";
     height: 100%;
-     background-color: rgb(255 222 174); 
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background-color: rgb(255 222 174); 
+    right: 0;
+    width: calc(100% - 24px);
+    margin: auto;
+    z-index: 0;
+  }
   }
   .text-white,
   .text-gray {
-    background-color: #ddd;
-    padding: 24px;
-    display: flex;
-   > div {
-      display: flex;
-      flex-direction: column;
-      width: 50%;
-      > div {
-        display: flex;
-      justify-content: space-between;
-      }
-    }
+    position: relative;
+    padding: 12px;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    z-index: 1;
   }
   .text-white {
     background-color: #fff;
+    padding-bottom: 4rem;
+  
+  
   }
   .text-gray {
     background-color: rgb(255 222 174); 
@@ -62,6 +68,8 @@ export const Para = styled.div`
   font-family: 'Be Vietnam Pro Light', sans-serif;
   margin-bottom: 6px;
   width: 90%;
+  display: flex;
+  justify-content: space-between;
 `;
 
 export const MinPara = styled.p`

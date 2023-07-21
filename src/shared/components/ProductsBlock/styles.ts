@@ -1,16 +1,27 @@
 import styled from "styled-components";
 
 export const ProductsBlockSection = styled.section`
+  color: #000;
+  font-size: 16px;
+  padding: 1rem 0 0.5rem;
+  font-family: 'Be Vietnam Pro Light', sans-serif;
+  text-align:  left;
+  line-height: 1.5;
+  white-space:  pre-line;
+  @media only screen and (max-width: 1024px) {
+    max-width: 100%;
+  }
   position: relative;
   padding: 5rem 0 3rem;
   text-align: center;
   display: flex;
   justify-content: center;
+  
   .ant-image {
     display: flex;
   }
   img {
-    transition: all .3s;
+    object-fit: contain;
   }
   .text-center {
     display: flex;
@@ -19,6 +30,20 @@ export const ProductsBlockSection = styled.section`
   @media screen and (max-width: 1024px) {
     padding: 5rem 0 3rem;
   }
+  @media (max-width: 660px) {
+    .col {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .col-text {
+        order: 1;
+    }
+    .col-img {
+        order: 2;
+    }
+
+}
   
 `;
 
