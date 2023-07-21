@@ -17,6 +17,21 @@ export const OurGymContentSection = styled("section")`
       height: 200px;
     }
   }
+  .content-wrap {
+    height: 480px;
+    position: relative;
+    background: #fff url('/img/our-gym-bg-3.png') left bottom no-repeat ;
+    background-size: 100%;
+    background-position: bottom;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    @media only screen and (max-width: 1024px) {
+      height: auto;
+      padding:2rem 0 ;
+    }
+  }
 `;
 export const Title = styled.h2`
   font-size: 32px;

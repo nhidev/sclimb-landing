@@ -8,11 +8,14 @@ export const HeaderSection = styled.header`
     align-items: center;
     text-align: center;
   }
+  @media only screen and (max-width: 890px) {
+    padding: 0.5rem;
+  } 
 `;
 
 export const LogoContainer = styled(Link)`
   display: flex;
-  @media only screen and (max-width: 411px) {
+  @media only screen and (max-width: 890px) {
     img {
       width: 50px;
       height: 50px;

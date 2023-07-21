@@ -40,7 +40,7 @@ const SolutionBlock = ({
                 section.map((item: any, id: number) => {
                   return (
                     <Col key={id} lg={6} md={6} sm={12} xs={24}>
-                      <Zoom delay={delay}>
+                      <Zoom delay={delay} triggerOnce={true}>
                         <SvgIcon src={item.icon} width="180px" height="180px" />
                         <MinTitle>{t(item.title)}</MinTitle>
                       </Zoom>
