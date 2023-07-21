@@ -131,7 +131,7 @@ export const Label = styled.label`
   color: #ffffff;
   display: block;
   margin-bottom: 2rem;
-  font-family: 'Be Vietnam Pro Bold', sans-serif;
+  /* font-family: 'Be Vietnam Pro Bold', sans-serif; */
 
   @media screen and (max-width: 414px) {
     padding: 1.5rem 0;

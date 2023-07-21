@@ -4,7 +4,7 @@ export const ScrollUpContainer = styled.div<any>`
   padding: 10px;
   position: fixed;
   right: 30px;
-  bottom: 30px;
+  bottom: 60px;
   z-index: 10;
   cursor: pointer;
   background: rgb(241, 242, 243);
@@ -22,7 +22,4 @@ export const ScrollUpContainer = styled.div<any>`
     background: rgb(224, 224, 224);
   }
 
-  @media screen and (max-width: 1240px) {
-    display: none;
-  }
 `;

@@ -58,10 +58,11 @@ export const GlobalStyles = createGlobalStyle`
     h4,
     h5,
     h6 {
-        font-family: 'Be Vietnam Pro Bold', sans-serif;
+        font-family: 'Be Vietnam Pro Light', sans-serif;
         color: #18216d;
         font-size: 56px;
         line-height: 1.18;
+        font-weight: 400;
 
         @media only screen and (max-width: 890px) {
           font-size: 47px;
