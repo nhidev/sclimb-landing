@@ -33,7 +33,7 @@ export const Content = styled("p")`
   padding: 0.5rem 0;
   text-transform: uppercase;
   color: #fff;
-  font-family: "Motiva Sans Light", sans-serif;
+  font-family: 'Be Vietnam Pro Light', sans-serif;
 `;
 
  
@@ -43,7 +43,7 @@ export const Title = styled.h2`
   padding: 0.5rem 0;
   text-transform: uppercase;
   color: #fff;
-  font-family: "Motiva Sans Light", sans-serif;
+  font-family: 'Be Vietnam Pro Light', sans-serif;
 `;
 
 export const MinTitle = styled.h6`
@@ -52,7 +52,7 @@ export const MinTitle = styled.h6`
   padding: 0.5rem 0;
   text-transform: uppercase;
   color: #fff;
-  font-family: "Motiva Sans Light", sans-serif;
+  font-family: 'Be Vietnam Pro Light', sans-serif;
 `;
 
 export const MinPara = styled.p`

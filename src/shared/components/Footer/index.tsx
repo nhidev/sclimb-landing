@@ -50,38 +50,22 @@ const Footer = ({ t }: any) => {
       <FooterSection id="contact">
         <Container>
           <Row justify="space-between">
-
-
             <Col lg={14} md={10} sm={12} xs={12}>
               <Language>{t("contact")}</Language>
-              <Chat>
-                {t(`Always learning and innovating, no project is too big or small, just ask us`)}
-              </Chat>
-              <Para>T18-23, Manhattan, Vinhomes Grand Park, Long Binh, District 9</Para>
-              <Para>Ho Chi Minh City, Viet Nam</Para>
-              <Para>vuclimb1991@gmail.com</Para>
+              <Para>T18-23, Manhattan, Vinhomes Grand Park, Long Binh</Para>
+              <Para>District 9, Ho Chi Minh City, Viet Nam</Para>
+              <Para>gosclimb@gmail.com</Para>
               <Para>+84 974 833 783</Para>
+              <Para><a className="link" href="https://www.google.com/maps/place/Sclimb/@10.8387915,106.8427268,17z/data=!3m1!4b1!4m6!3m5!1s0x31752146333972ad:0x8989142085553c58!8m2!3d10.8387862!4d106.8453017!16s%2Fg%2F11kq61cwvv?entry=ttu"  target="_blank" title="Sclimb">{t("googleMap")}</a></Para>
             </Col>
             <Col lg={6} md={8} sm={12} xs={12}>
-              <Title>{t("mainMenu")}</Title>
-              <Large left="true" to="/">
-                {t("about")}
-              </Large>
-              <Large left="true" to="/">
-                {t("products")}
-              </Large>
-              <Large left="true" to="/">
-                {t("climbingGym")}
-              </Large>
-              <Large left="true" to="/">
-                {t("services")}
-              </Large>
-              {/* <Large left="true" to="/">
-                {t("Climbing Gyms")}
-              </Large> */}
+              <Title>{t("hours")}</Title>
+              <Large>{t("monToFri")}</Large>
+              <Large>{t("saturday")}</Large>
+              <Large>{t("sunday")}</Large>
             </Col>
             <Col lg={4} md={6} sm={12} xs={12}>
-              <Label htmlFor="select-lang">{t("Language")}</Label>
+              <Label htmlFor="select-lang">{t("language")}</Label>
               <LanguageSwitchContainer>
                 <LanguageSwitch onClick={() => handleChange("br")}>
                   <SvgIcon

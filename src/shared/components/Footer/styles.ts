@@ -4,6 +4,9 @@ import { Link } from "react-router-dom";
 export const FooterSection = styled.footer`
   background-color: #323435;
   padding: 2.5rem 0;
+  .link {
+    color: #1890ff;
+  }
 `;
 
 export const Title = styled.h4`
@@ -48,7 +51,7 @@ export const Para = styled.div`
   width: 70%;
 `;
 
-export const Large = styled(Link)<any>`
+export const Large = styled.span`
   font-size: 16px;
   color: #868686;
   cursor: pointer;
@@ -60,25 +63,6 @@ export const Large = styled(Link)<any>`
   transition: all 0.3s ease-in-out;
   max-width: max-content;
   position: relative;
-  &:after {
-    background-color:rgb(255, 130, 92);
-    bottom: -5px;
-    content: "";
-    height: 2px;
-    left: 50%;
-    position: absolute;
-    transform: translateX(-50%);
-    transition: all .3s cubic-bezier(.68,-.55,.265,1.55);
-    width: 0;
-  }
-  &:hover {
-    color: #ffffff;
-  }
-  &:hover:after,
-  &:active:after,
-  &:focus:after {
-    width: 100%;
-  }
 `;
 
 export const Chat = styled.p`
@@ -147,7 +131,7 @@ export const Label = styled.label`
   color: #ffffff;
   display: block;
   margin-bottom: 2rem;
-  font-family: "Motiva Sans Bold", serif;
+  font-family: 'Be Vietnam Pro Bold', sans-serif;
 
   @media screen and (max-width: 414px) {
     padding: 1.5rem 0;
@@ -158,14 +142,6 @@ export const Label = styled.label`
 export const LanguageSwitch = styled.div<any>`
   cursor: pointer;
   transition: all 0.1s ease-in-out;
-
-  &:hover,
-  &:active,
-  &:focus {
-    -webkit-transform: scale(1.1);
-    -ms-transform: scale(1.1);
-    transform: scale(1.1);
-  }
 `;
 
 export const LanguageSwitchContainer = styled.div`

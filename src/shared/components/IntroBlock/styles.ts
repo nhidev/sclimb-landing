@@ -50,14 +50,32 @@ export const Content = styled.div`
     color: #ffffff;
     white-space: pre-line;
     text-align: left ;
-
   @media only screen and (max-width: 768px) {
-
     padding: 0 ;
     font-size: 16px;
     line-height: 1.5;
 
     }
   }
+  button {
+    background-color: rgb(243 144 29 / 82%);
+    border-color: #f3901d;
+    border-radius: 50%;
+    color: #000;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    font-size: 12px;
+    width: 80px;
+    height: 80px;
+    span {
+      font-size: 20px;
+    }
+    &:hover {
+      color: #000;
+    }
+  } 
 `;
  
