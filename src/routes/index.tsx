@@ -8,7 +8,7 @@ const Home = lazy(() => import("../pages/Home"));
 
 export const Router = () => {
   return (
-    <Suspense fallback={<h3>Loading ...</h3>}>
+    <Suspense fallback={<></>}>
       <Header />
       <Routes>
         <Route path="/" element={<Home />} />
