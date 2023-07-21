@@ -8,14 +8,14 @@ export const ProductsBlockSection = styled.section`
   text-align:  left;
   line-height: 1.5;
   white-space:  pre-line;
+ 
+  position: relative;
+  padding: 5rem 0 3rem;
+  display: flex;
+  justify-content: center;
   @media only screen and (max-width: 1024px) {
     max-width: 100%;
   }
-  position: relative;
-  padding: 5rem 0 3rem;
-  text-align: center;
-  display: flex;
-  justify-content: center;
   
   .ant-image {
     display: flex;
@@ -23,10 +23,7 @@ export const ProductsBlockSection = styled.section`
   img {
     object-fit: contain;
   }
-  .text-center {
-    display: flex;
-    align-items: center;
-  }
+
   @media screen and (max-width: 1024px) {
     padding: 5rem 0 3rem;
   }
@@ -72,6 +69,7 @@ export const Para = styled.p`
   line-height: 1.5;
   margin-bottom: 3rem;
   white-space:  pre-line;
+
   @media only screen and (max-width: 1024px) {
     max-width: 100%;
   }

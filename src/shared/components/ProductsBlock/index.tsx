@@ -23,7 +23,7 @@ export const ProductsBlock = ({ id, t }: ProductsBlockProps) => {
               <Title>{t('productsTitle')}</Title>
             </Content>
             <Row gutter={[24, 24]} justify="center">
-              <Col className="text-center" xs={20} sm={20} md={12} lg={12}>
+              <Col xs={20} sm={20} md={12} lg={12}>
                 <Fade direction='up' triggerOnce={true}>{t("holdsText")}</Fade>
               </Col>
               <Col xs={20} sm={20} md={12} lg={12}>
@@ -38,7 +38,7 @@ export const ProductsBlock = ({ id, t }: ProductsBlockProps) => {
                   <Image src="/img/product_2.jpg" height={350} preview={false} />
                 </Fade>
               </Col>
-              <Col className="col-text text-center" xs={20} sm={20} md={12} lg={12}>
+              <Col className="col-text" xs={20} sm={20} md={12} lg={12}>
               <Fade direction='up' triggerOnce={true}>{t("volumesText")}</Fade>
               </Col>
             </Row>
