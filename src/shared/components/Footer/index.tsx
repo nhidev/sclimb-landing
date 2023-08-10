@@ -55,7 +55,7 @@ const Footer = ({ t }: any) => {
               <Para>T18-23, Manhattan, Vinhomes Grand Park, Long Binh</Para>
               <Para>District 9, Ho Chi Minh City, Viet Nam</Para>
               <Para>gosclimb@gmail.com</Para>
-              <Para>+84 974 833 783</Para>
+              <Para>+84 901 414 277</Para>
               <Para><a className="link" href="https://www.google.com/maps/place/Sclimb/@10.8387915,106.8427268,17z/data=!3m1!4b1!4m6!3m5!1s0x31752146333972ad:0x8989142085553c58!8m2!3d10.8387862!4d106.8453017!16s%2Fg%2F11kq61cwvv?entry=ttu"  target="_blank" title="Sclimb">{t("googleMap")}</a></Para>
             </Col>
             <Col lg={6} md={8} sm={12} xs={24}>
