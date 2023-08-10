@@ -35,51 +35,58 @@ const PricesBlock = ({
               <Col xs={24} sm={24} md={24} lg={16} className="text-box">
                 <Row gutter={[24, 24]} justify="center" className="text-white">
                   <Col xs={24} sm={24} md={12} lg={12}>
-                    <Fade direction='up' triggerOnce={true}>
-                      <MinTitle>{t("dayPass")}</MinTitle>
-                      <Para>{t("adultPass")}<span>150.000 vnd</span></Para>
-                      <Para>{t("kidPass")}<span>130.000 vnd</span></Para>
-                    </Fade>
+                    <MinTitle>{t("dayPass")}</MinTitle>
+                    <Para>{t("adultPass")}<span>150.000 vnd</span></Para>
+                    <Para>{t("kidPass")}<span>100.000 vnd</span></Para>
                   </Col>
 
                   <Col xs={24} sm={24} md={12} lg={12}>
-                    <Fade direction='up' triggerOnce={true}>
-                      <MinTitle>{t("punchPass")}</MinTitle>
-                      <Para>5 {t("punchPasses")}<span>700.000 vnd ({t("valid")} 1 {t("month")})</span></Para>
-                      <Para>10 {t("punchPasses")}<span>1300.000 vnd  ({t("valid")} 2 {t("month")})</span></Para>
-                      <MinPara>{t("punchNote")}</MinPara>
-                    </Fade>
-
+                    <MinTitle>{t("punchPass")}</MinTitle>
+                    <Para>{t("adultPass")}<span>1.500.000 vnd / 12 {t("punchPasses")}</span></Para>
+                    <Para>{t("kidPass")}<span>1.000.000 vnd / 12 {t("punchPasses")}</span></Para>
+                    <MinPara>{t("punchNote")}</MinPara>
                   </Col>
                 </Row>
 
                 <Row gutter={[24, 24]} justify="center" className="text-gray">
                   <Col xs={24} sm={24} md={12} lg={12}>
-                    <Fade direction='up' triggerOnce={true}>
-                      <MinTitle>{t("membership")}</MinTitle>
-                      <Para>1 {t("month")}<span>1.500.000 vnd</span></Para>
-                      <Para>3 {t("month")}<span>3.000.000 vnd</span></Para>
-                      <Para>6 {t("month")}<span>5.000.000 vnd</span></Para>
-                      <Para>{t("annualPrepaid")}<span>9.000.000 vnd</span></Para>
-                      <MinPara>{t("annualPrepaidNote1")}</MinPara>
-                      <MinPara>{t("annualPrepaidNote2")}</MinPara>
-                    </Fade>
+                    <MinTitle>{t("membership")}</MinTitle>
+                    <Para>1 {t("month")}<span>1.200.000 vnd</span></Para>
+                    <Para>6 {t("month")}<span>6.000.000 vnd</span></Para>
+                    <Para>{t("annualPrepaid")}<span>10.800.000 vnd</span></Para>
+                    <MinPara>{t("annualPrepaidNote1")}</MinPara>
+                    <MinPara>{t("annualPrepaidNote2")}</MinPara>
                   </Col>
 
                   <Col xs={24} sm={24} md={12} lg={12}>
-                    <Fade direction='up' triggerOnce={true}>
-                      <MinTitle>{t("equipmentRental")}</MinTitle>
-                      <Para>{t("shoses")}<span>50.000 vnd</span></Para>
-                      <Para>{t("chalk")}<span>30.000 vnd</span></Para>
-                    </Fade>
+                    <MinTitle>{t("equipmentRental")}</MinTitle>
+                    <Para>{t("shoses")}<span>25.000 vnd</span></Para>
+                    <Para>{t("chalk")}<span>30.000 vnd</span></Para>
                   </Col>
                 </Row>
 
               </Col>
               <Col xs={24} sm={24} md={24} lg={8}>
-                <Fade direction='up' triggerOnce={true}>
-                  <Image src="/img/course.jpg" preview={false} />
-                </Fade>
+                <Row gutter={[24, 24]} justify="center" className="text-white">
+                    <Col xs={24}>
+                      <MinTitle>{t("climbingStuffs")}</MinTitle>
+                      <Para>{t("tShirtAdult")}<span>250.000 vnd</span></Para>
+                      <Para>{t("tShirtKid")}<span>210.000 vnd</span></Para>
+                      <Para>{t("looseChalkSmlall")}<span>80.000 vnd</span></Para>
+                      <Para>{t("boltChalkBag")}<span>415.000 vnd</span></Para>
+                      <Para>{t("hangerChalkPot")}<span>862.000 vnd</span></Para>
+                    </Col>
+
+                    <Col xs={24}>
+                      <MinTitle>{t("feetAndHandsCare")}</MinTitle>
+                      <Para>{t("smellWellShoseDeodorizer")}<span>258.000 vnd</span></Para>
+                      <Para>{t("shoseDeodorizerPowder")}<span>225.000 vnd</span></Para>
+                      <Para>{t("shoseDeodorizerBag")}<span>185.000 vnd</span></Para>
+                      <Para>{t("Shoes Deodorizer Bag")}<span>498.000 vnd</span></Para>
+                      <Para>{t("liquidChalk")}<span>240.000 vnd</span></Para>
+                    </Col>
+
+                  </Row>
               </Col>
             </Row>
           </Col>
