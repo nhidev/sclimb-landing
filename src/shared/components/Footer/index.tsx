@@ -60,9 +60,7 @@ const Footer = ({ t }: any) => {
             </Col>
             <Col lg={6} md={8} sm={12} xs={24}>
               <Title>{t("hours")}</Title>
-              <Large>{t("monToFri")}</Large>
-              <Large>{t("saturday")}</Large>
-              <Large>{t("sunday")}</Large>
+              <Large>{t("monToSun")}</Large>
             </Col>
             <Col lg={4} md={6} sm={12} xs={24}>
               <Label htmlFor="select-lang">{t("language")}</Label>

@@ -60,7 +60,7 @@ const PricesBlock = ({
 
                   <Col xs={24} sm={24} md={12} lg={12}>
                     <MinTitle>{t("equipmentRental")}</MinTitle>
-                    <Para>{t("shoses")}<span>25.000 vnd</span></Para>
+                    <Para>{t("shoes")}<span>25.000 vnd</span></Para>
                     <Para>{t("chalk")}<span>30.000 vnd</span></Para>
                   </Col>
                 </Row>
@@ -80,9 +80,9 @@ const PricesBlock = ({
                     <Col xs={24}>
                       <MinTitle>{t("feetAndHandsCare")}</MinTitle>
                       <Para>{t("smellWellShoseDeodorizer")}<span>258.000 vnd</span></Para>
-                      <Para>{t("shoseDeodorizerPowder")}<span>225.000 vnd</span></Para>
-                      <Para>{t("shoseDeodorizerBag")}<span>185.000 vnd</span></Para>
-                      <Para>{t("Shoes Deodorizer Bag")}<span>498.000 vnd</span></Para>
+                      <Para>{t("shoesDeodorizerPowder")}<span>225.000 vnd</span></Para>
+                      <Para>{t("shoesOdourSpray")}<span>185.000 vnd</span></Para>
+                      <Para>{t("shoesDeodorizerBag")}<span>498.000 vnd</span></Para>
                       <Para>{t("liquidChalk")}<span>240.000 vnd</span></Para>
                     </Col>
 

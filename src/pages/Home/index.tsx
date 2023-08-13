@@ -34,7 +34,7 @@ const Home = () => {
         section={ServicesContent.section}
         id="services"
       />
-        <PricesBlock
+      <PricesBlock
         title={ServicesContent.title}
         section={ServicesContent.section}
         id="prices"
