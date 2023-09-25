@@ -1,0 +1,8 @@
+{
+  "rewrites": [
+    {"source": "/about/", "destination": "https://sclimb-landing.vercel.app/about"},
+    {"source": "/about/:match*", "destination": "https://sclimb-landing.vercel.app/about/:match*"},
+    {"source": "/", "destination": "https://sclimb-landing.vercel.app"},
+    {"source": "/:match*", "destination": "https://sclimb-landing.vercel.app/:match*"}
+  ]
+}
