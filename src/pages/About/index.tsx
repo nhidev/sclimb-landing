@@ -6,7 +6,12 @@ import SolutionContent from "../../content/SolutionContent.json";
 const IntroBlock = lazy(() => import("../../shared/components/IntroBlock"));
 const ProductsBlock = lazy(() => import("../../shared/components/ProductsBlock"));
 const SolutionBlock = lazy(() => import("../../shared/components/SolutionBlock"));
-
+declare global { namespace JSX {
+    interface IntrinsicElements {
+      "livere-comment": any;
+    }
+  }
+}
 const About = () => {
   return (
     <>
